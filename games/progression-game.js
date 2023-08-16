@@ -1,9 +1,7 @@
 import readlinesync from 'readline-sync';
 import startGame from '../src/index.js';
+import getRandomNumber from '../src/randomNumber.js';
 
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min + 1;
-}
 const questionGame = () => {
   console.log('What number is missing in the progression?');
 };

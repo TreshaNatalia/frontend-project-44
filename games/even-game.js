@@ -1,13 +1,11 @@
 import readlinesync from 'readline-sync';
 // eslint-disable-next-line import/extensions
 import startGame from '../src/index.js';
+import getRandomNumber from '../src/randomNumber.js';
 
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min + 1;
-}
-const questionGame = () => {
+function questionGame() {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-};
+}
 const min = 1;
 const max = 100;
 function startRound() {

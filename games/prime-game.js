@@ -1,20 +1,29 @@
 import readlinesync from 'readline-sync';
-// eslint-disable-next-line import/extensions
 import startGame from '../src/index.js';
 
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min)) + min + 1;
 }
 const questionGame = () => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+};
+const isPrime = (num) => {
+  if (num < 2) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
 };
 const min = 1;
 const max = 100;
 function startRound() {
   const randomNumber = getRandomNumber(min, max);
-  const isEven = randomNumber % 2 === 0;
   console.log(`Question: ${randomNumber}`);
-  const correctAnswer = (isEven) ? 'yes' : 'no';
+  const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
   const answer = readlinesync.question('Your answer: ');
   if (answer.toLowerCase() === correctAnswer) {
     console.log('Correct!');
@@ -23,8 +32,7 @@ function startRound() {
   console.log(`'${answer}' is wrong answer ;(.  Correct answer was '${correctAnswer}'.`);
   return false;
 }
-const evenGame = () => {
+const primeGame = () => {
   startGame(questionGame, startRound);
 };
-export default evenGame;
-// eslint-disable-next-line consistent-return
+export default primeGame;

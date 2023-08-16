@@ -34,7 +34,7 @@ const startRound = () => {
   console.log(`${answer} is wrong answer ;(.  Correct answer was ${correctAnswer}.`);
   return false;
 };
-const calcGame = () => {
+const gcdGame = () => {
   startGame(questionGame, startRound);
 };
-export default calcGame;
+export default gcdGame;

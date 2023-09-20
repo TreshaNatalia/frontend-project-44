@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-// eslint-disable-next-line import/named
-import evenGame from '../games/even-game.js';
+import runEvenGame from '../src/games/evenGame.js';
 
-evenGame();
+runEvenGame();

@@ -1,6 +1,5 @@
-import readlinesync from 'readline-sync';
-import startGame from '../src/index.js';
-import getRandomNumber from '../src/randomNumber.js';
+import startGame from '../index.js';
+import getRandomNumber from '../randomNumber.js';
 
 const questionGame = () => {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
@@ -20,17 +19,11 @@ const min = 1;
 const max = 100;
 function startRound() {
   const randomNumber = getRandomNumber(min, max);
-  console.log(`Question: ${randomNumber}`);
+  const question = `Question: ${randomNumber}`.toString();
   const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
-  const answer = readlinesync.question('Your answer: ');
-  if (answer.toLowerCase() === correctAnswer) {
-    console.log('Correct!');
-    return true;
-  }
-  console.log(`'${answer}' is wrong answer ;(.  Correct answer was '${correctAnswer}'.`);
-  return false;
+  return [question, correctAnswer];
 }
-const primeGame = () => {
+const runPrimeGame = () => {
   startGame(questionGame, startRound);
 };
-export default primeGame;
+export default runPrimeGame;

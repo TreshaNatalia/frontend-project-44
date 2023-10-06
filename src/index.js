@@ -16,6 +16,6 @@ function startGame(questionGame, startRound) {
     }
     console.log('Correct!');
   }
-  return `Congratulations, ${name}!`;
+  return console.log(`Congratulations, ${name}!`);
 }
 export default startGame;

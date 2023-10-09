@@ -1,13 +1,9 @@
 import startGame from '../index.js';
 import getRandomNumber from '../helpers.js';
 
-const questionGame = () => {
-  console.log('What is the result of the expression?');
-};
-const min = 1;
-const max = 100;
+const questionGame = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
-const calculate = (number1, number2, operation) => {
+const operator = (number1, number2, operation) => {
   switch (operation) {
     case '+':
       return number1 + number2;
@@ -20,11 +16,11 @@ const calculate = (number1, number2, operation) => {
   }
 };
 const startRound = () => {
-  const number1 = getRandomNumber(min, max);
-  const number2 = getRandomNumber(min, max);
-  const randomOperationSign = operators[getRandomNumber(0, operators.length - 1)];
-  const question = `Question: ${number1} ${randomOperationSign} ${number2}`;
-  const correctAnswer = calculate(number1, number2, randomOperationSign).toString();
+  const number1 = getRandomNumber(1, 100);
+  const number2 = getRandomNumber(1, 100);
+  const randomOperator = operators[getRandomNumber(0, operators.length - 1)];
+  const question = `${number1} ${randomOperator} ${number2}`;
+  const correctAnswer = operator(number1, number2, randomOperator).toString();
   return [question, correctAnswer];
 };
 const runCalcGame = () => {

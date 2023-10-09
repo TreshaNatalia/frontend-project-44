@@ -24,8 +24,7 @@
 brain-even
 
 ```
-
-<a href="https://asciinema.org/a/eOemvh7DPLNgx5Og8tHqQ7A6Z" target="_blank"><img src="https://asciinema.org/a/eOemvh7DPLNgx5Og8tHqQ7A6Z.svg" /></a>
+<a href="https://asciinema.org/a/wK9nHFWV4rBs1kjltJqKmdsVM" target="_blank"><img src="https://asciinema.org/a/wK9nHFWV4rBs1kjltJqKmdsVM.svg" /></a>
 
 # Game: "Brain-calculator"
 Rules of the game:  The gamer is shown a random number mathematical expression that needs to be calculated and written down the correct answer. If the user gives an incorrect answer, the game ends. If the answers are correct, the game consists of three rounds.
@@ -34,7 +33,7 @@ Rules of the game:  The gamer is shown a random number mathematical expression t
 brain-calc
 
 ```
-<a href="https://asciinema.org/a/q6mk1lnq0IlqLykadWbnbflXc" target="_blank"><img src="https://asciinema.org/a/q6mk1lnq0IlqLykadWbnbflXc.svg" /></a>
+<a href="https://asciinema.org/a/Ytx5d1QmcSkJSO8H2z4QnpGeT" target="_blank"><img src="https://asciinema.org/a/Ytx5d1QmcSkJSO8H2z4QnpGeT.svg" /></a>
 
 # Game: "Brain-GCD"
 Rules of the game:  The gamer is shown two random numbers. And he needs to be calculated and written down the correct answer. If the gamer gives an incorrect answer, the game ends. If the answers are correct, the game consists of three rounds.
@@ -53,7 +52,7 @@ brain-progression
 
 ```
 
-<a href="https://asciinema.org/a/HDvPqqWJ50Rxf3HDONrXNHoxi" target="_blank"><img src="https://asciinema.org/a/HDvPqqWJ50Rxf3HDONrXNHoxi.svg" /></a>
+<a href="https://asciinema.org/a/6E6c2VKzijeh8SElFhj0oe98z" target="_blank"><img src="https://asciinema.org/a/6E6c2VKzijeh8SElFhj0oe98z.svg" /></a>
 
 # Game: "Brain-prime"
 Rules of the game: The gamer is shown a random number. He needs to answer "yes" if given number is prime. Otherwise answer "no". If the gamer gives an incorrect answer, the game ends. If the answers are correct, the game consists of three rounds.
@@ -63,4 +62,4 @@ brain-prime
 
 ```
 
-<a href="https://asciinema.org/a/ogxQHlTQP3VnHZEbBNn7N1ieZ" target="_blank"><img src="https://asciinema.org/a/ogxQHlTQP3VnHZEbBNn7N1ieZ.svg" /></a>
+<a href="https://asciinema.org/a/0NAz4Bh3MwZaQrcQaYDKqN6Au" target="_blank"><img src="https://asciinema.org/a/0NAz4Bh3MwZaQrcQaYDKqN6Au.svg" /></a>

@@ -16,6 +16,6 @@ const startGame = (questionGame, generateRound) => {
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations, ${name}!`);
+  return console.log(`Congratulations, ${name}!`);
 };
 export default startGame;

@@ -42,7 +42,7 @@ Rules of the game:  The gamer is shown two random numbers. And he needs to be ca
 brain-gcd
 
 ```
-<a href="https://asciinema.org/a/mtCLLDpccWC41SalOKPjIR8nb" target="_blank"><img src="https://asciinema.org/a/mtCLLDpccWC41SalOKPjIR8nb.svg" /></a>
+<a href="https://asciinema.org/a/0WbUBg1KdRu99zfmNyRm9rGmO" target="_blank"><img src="https://asciinema.org/a/0WbUBg1KdRu99zfmNyRm9rGmO.svg" /></a>
 
 # Game: "Brain-progression"
 Rules of the game: The gamer have to find out the number in an arithmetic progression that is hidden with two dots and written down the correct answer. If the gamer gives an incorrect answer, the game ends. If the answers are correct, the game consists of three rounds.

@@ -1,6 +1,6 @@
 import readlinesync from 'readline-sync';
 
-function startGame(questionGame, generateRound) {
+const startGame = (questionGame, generateRound) => {
   console.log('Welcome to the Brain Games!');
   const name = readlinesync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
@@ -12,10 +12,10 @@ function startGame(questionGame, generateRound) {
     const answer = readlinesync.question('Your answer: ');
     if (answer !== correctAnswer) {
       console.log(`'${answer}' is wrong answer ;(.  Correct answer was '${correctAnswer}'.`);
-      return `Let's try again, ${name}!`;
+      return console.log(`Let's try again, ${name}!`);
     }
     console.log('Correct!');
   }
-  return console.log(`Congratulations, ${name}!`);
-}
+  console.log(`Congratulations, ${name}!`);
+};
 export default startGame;
